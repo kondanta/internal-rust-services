@@ -1,0 +1,30 @@
+[package]
+name = "collector"
+
+authors.workspace = true # This is a workspace-wide setting
+edition.workspace = true # This is a workspace-wide setting
+version.workspace = true # This is a workspace-wide setting
+publish.workspace = true # This is a workspace-wide setting
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+amiquip.workspace = true
+axum.workspace = true
+axum-macros.workspace = true
+axum-prometheus.workspace = true
+axum-server.workspace = true
+axum-tracing-opentelemetry.workspace = true
+clap.workspace = true
+color-eyre.workspace = true
+lib.workspace = true
+opentelemetry.workspace = true
+opentelemetry-otlp.workspace = true
+opentelemetry-semantic-conventions.workspace = true
+opentelemetry_sdk.workspace = true
+serde.workspace = true
+serde_json.workspace = true
+tokio.workspace = true
+tracing.workspace = true
+tracing-opentelemetry.workspace = true
+tracing-subscriber.workspace = true
