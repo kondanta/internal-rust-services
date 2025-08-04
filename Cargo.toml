@@ -1,5 +1,5 @@
 [workspace]
-members = ["collector", "echo", "killswitch", "lib", "quard", "waker"]
+members = ["arbiter", "collector", "echo", "killswitch", "lib", "quard", "waker"]
 resolver = "3"
 
 targets = ["x86_64-pc-windows-msvc", "x86_64-unknown-linux-gnu"]
