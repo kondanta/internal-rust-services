@@ -1,0 +1,6 @@
+---
+widgets:
+  - type: search
+    placeholder: yt
+    engine: https://youtube.com/
+    shortcut: "!yt"

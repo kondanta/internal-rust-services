@@ -31,6 +31,9 @@ pub enum Command {
         /// The host to bind the server to.
         #[arg(long, default_value = "0.0.0.0")]
         host: String,
+
+        #[arg(short, long, default_value = "./config.yaml")]
+        config_file: String,
     },
 }
 
